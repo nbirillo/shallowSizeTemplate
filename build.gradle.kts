@@ -5,6 +5,7 @@ val jvmTargetVersion: String by project
 plugins {
     kotlin("jvm")
     java
+    id("io.gitlab.arturbosch.detekt").version("1.22.0-RC2")
 }
 
 group = "spbu.kotlin.class.shallowSize"
